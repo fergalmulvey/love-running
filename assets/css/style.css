@@ -151,6 +151,12 @@ main {
     max-height: 300px;
 }
 
+#times {
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #benefits-image {
     display: flex;
     align-items: center;
