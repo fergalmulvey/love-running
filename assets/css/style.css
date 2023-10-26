@@ -27,6 +27,10 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display:none;
+}
+
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
@@ -163,7 +167,7 @@ main {
     flex-wrap: wrap;
 }
 
-#times > div {
+#times>div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 16px;
@@ -241,12 +245,12 @@ main {
         width: 100%;
     }
 
-    #benefits-physical > div ,
-    #benefits-mental > div {
+    #benefits-physical>div,
+    #benefits-mental>div {
         width: 75%;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -261,13 +265,14 @@ main {
 }
 
 @media screen and (min-width: 1200px) {
+
     /* Reasons section */
-    #benefits{
+    #benefits {
         display: flex;
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -279,11 +284,11 @@ main {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 }
